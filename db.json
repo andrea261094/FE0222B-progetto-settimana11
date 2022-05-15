@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": " iPhone XL",
+      "price": 799,
+      "description": "Uno dei migliori smartphone in commercio, con schermo ampio"
+    },
+    {
+      "id": 2,
+      "name": "iPhone Mini",
+      "price": 699,
+      "description": "Ha un'ottima fotocamera anche se piccolo di dimensioni"
+    },
+    {
+      "id": 3,
+      "name": "iPhone Standard",
+      "price": 299,
+      "description": "Se non hai un iphone non hai un iphone"
+    },
+    {
+      "name": "OnePlus Nord",
+      "price": 500,
+      "description": "Il mio telefono preferito",
+      "id": 4
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as Service from './models/products.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'prova11';
+  cart: Service.Product[] = this.Service.cart;
+  title = 'ProgettoS11';
+  constructor(private Service: Service.ProductsService){}
 }
